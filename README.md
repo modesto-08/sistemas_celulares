@@ -1,202 +1,157 @@
 <div align="center">
 
-# 📱 Sistemas Celulares
+# 📱 [Sistemas Celulares](#-sobre-o-projeto)
 
-### Organização para a assistência. Praticidade para o atendimento.
+### [👤 Clientes](#clientes) • [📱 Aparelhos](#aparelhos) • [📅 Agendamentos](#agendamentos) • [🔐 Segurança](#seguranca)
 
-Projeto de um sistema para gerenciar **clientes, aparelhos e agendamentos de reparos**, com autenticação de usuários e controle seguro dos dados.
+**Tecnologia e organização para transformar o atendimento.**
 
-**👤 Clientes · 📱 Aparelhos · 📅 Agendamentos · 🔐 Autenticação**
-
-[Conheça o projeto](#-sobre-o-projeto) •
-[Explore os módulos](#-explore-os-módulos) •
-[Veja o fluxo](#-jornada-do-atendimento) •
-[Acompanhe as etapas](#-checklist-de-desenvolvimento)
+[Explorar o projeto ↓](#-sobre-o-projeto)
 
 </div>
 
 ---
 
-## 💡 Sobre o projeto
+## 💡 [Sobre o projeto](#-sobre-o-projeto)
 
-Uma assistência técnica precisa organizar muito mais do que aparelhos: cada atendimento envolve um cliente, um problema relatado e um agendamento.
+O **Sistemas Celulares** tem como proposta facilitar o gerenciamento de uma assistência técnica, reunindo clientes, aparelhos e agendamentos de reparos em um único sistema.
 
-O **Sistemas Celulares** tem como proposta reunir essas informações em um único sistema, facilitando o gerenciamento dos atendimentos e mantendo o acesso aos dados restrito a usuários autenticados.
+O projeto prevê autenticação de usuários e controle seguro dos dados, contribuindo para uma rotina de atendimento mais organizada.
 
-> 🎯 **Missão do projeto:** transformar informações do atendimento em uma rotina organizada, acessível e segura.
+> 👆 **Explore os módulos abaixo: clique para abrir e clique novamente para fechar.**
 
-## 🧩 O desafio
+---
 
-Desenvolver um sistema que permita:
-
-- Cadastrar e gerenciar clientes.
-- Registrar e gerenciar aparelhos celulares.
-- Organizar agendamentos de reparos.
-- Autenticar usuários.
-- Controlar o acesso aos dados.
-
-As funcionalidades descritas neste README representam o escopo proposto para o projeto.
-
-## 🔎 Explore os módulos
-
-**Clique nos títulos abaixo para expandir cada módulo.**
+<a id="clientes"></a>
 
 <details>
-<summary><strong>👤 Clientes — quem precisa do atendimento?</strong></summary>
+<summary><strong>👤 CLIENTES — clique para explorar</strong></summary>
 
-### Organização dos clientes
+### [Cada atendimento começa com uma pessoa](#clientes)
 
-Módulo destinado ao cadastro e gerenciamento das pessoas atendidas pela assistência técnica.
+O módulo de clientes permite organizar as informações das pessoas atendidas pela assistência.
 
-**Operações previstas:**
+**Funcionalidades previstas:**
 
-- Cadastrar clientes.
-- Consultar informações.
-- Atualizar dados.
-- Excluir registros conforme as regras do sistema.
-
-**Contribuição para o atendimento:** facilitar a identificação do cliente e a associação dos seus aparelhos.
-
-</details>
-
-<details>
-<summary><strong>📱 Aparelhos — qual equipamento precisa de reparo?</strong></summary>
-
-### Gerenciamento dos aparelhos
-
-Módulo destinado ao registro dos aparelhos e à associação deles aos respectivos clientes.
-
-**Operações previstas:**
-
-- Cadastrar aparelhos.
-- Consultar registros.
+- Cadastrar novos clientes.
+- Consultar os registros.
 - Atualizar informações.
-- Gerenciar a relação entre aparelho e cliente.
+- Excluir registros conforme as regras do sistema.
+- Associar clientes aos seus aparelhos.
 
-**Contribuição para o atendimento:** manter as informações do equipamento vinculadas à pessoa responsável.
+[↑ Voltar ao início](#-sistemas-celulares)
 
 </details>
+
+---
+
+<a id="aparelhos"></a>
 
 <details>
-<summary><strong>📅 Agendamentos — quando será o atendimento?</strong></summary>
+<summary><strong>📱 APARELHOS — clique para explorar</strong></summary>
 
-### Organização dos reparos
+### [Cada aparelho tem sua história](#aparelhos)
 
-Módulo destinado ao cadastro e gerenciamento dos agendamentos de reparos.
+O módulo de aparelhos permite registrar os equipamentos e vinculá-los aos respectivos clientes.
 
-**Operações previstas:**
+**Funcionalidades previstas:**
 
-- Registrar agendamentos.
-- Consultar atendimentos agendados.
-- Atualizar informações do agendamento.
-- Cancelar agendamentos conforme as regras do sistema.
+- Cadastrar aparelhos celulares.
+- Consultar os equipamentos registrados.
+- Atualizar os dados dos aparelhos.
+- Identificar o cliente responsável.
 
-**Contribuição para o atendimento:** organizar a demanda e facilitar a consulta dos serviços programados.
+[↑ Voltar ao início](#-sistemas-celulares)
 
 </details>
+
+---
+
+<a id="agendamentos"></a>
 
 <details>
-<summary><strong>🔐 Autenticação — quem pode acessar o sistema?</strong></summary>
+<summary><strong>📅 AGENDAMENTOS — clique para explorar</strong></summary>
 
-### Acesso dos usuários
+### [Organização para o próximo reparo](#agendamentos)
 
-Módulo responsável pela identificação dos usuários e pelo controle de acesso às áreas protegidas.
+O módulo de agendamentos permite organizar os atendimentos e consultar os reparos programados.
 
-**Responsabilidades previstas:**
+**Funcionalidades previstas:**
 
-- Validar as credenciais de acesso.
-- Restringir funcionalidades a usuários autenticados.
-- Permitir o encerramento da sessão.
-- Aplicar as regras de acesso aos dados.
+- Criar agendamentos de reparos.
+- Consultar os atendimentos.
+- Atualizar os agendamentos.
+- Cancelar atendimentos conforme as regras do sistema.
 
-**Contribuição para o atendimento:** permitir que as informações sejam acessadas conforme as permissões definidas.
+[↑ Voltar ao início](#-sistemas-celulares)
 
 </details>
 
-## 🔄 Jornada do atendimento
+---
 
-| Etapa | Ação | Objetivo |
+<a id="seguranca"></a>
+
+<details>
+<summary><strong>🔐 SEGURANÇA — clique para explorar</strong></summary>
+
+### [Acesso controlado às informações](#seguranca)
+
+A autenticação identifica os usuários e permite restringir o acesso às áreas protegidas do sistema.
+
+**Recursos previstos:**
+
+- Validação das credenciais de acesso.
+- Restrição de acesso a usuários autenticados.
+- Encerramento da sessão.
+- Controle de acesso aos dados.
+
+[↑ Voltar ao início](#-sistemas-celulares)
+
+</details>
+
+---
+
+## 🔄 [Jornada do atendimento](#-jornada-do-atendimento)
+
+| Etapa | Ação | Finalidade |
 | :---: | --- | --- |
-| **01** 🔑 | Acessar o sistema | Identificar o usuário responsável. |
-| **02** 👤 | Cadastrar ou consultar o cliente | Localizar a pessoa que solicita o serviço. |
-| **03** 📱 | Registrar ou consultar o aparelho | Identificar o equipamento relacionado ao atendimento. |
-| **04** 📅 | Agendar o reparo | Organizar o atendimento solicitado. |
-| **05** 📝 | Gerenciar as informações | Manter os registros atualizados. |
+| 🔑 **01** | Acessar o sistema | Autenticar o usuário. |
+| 👤 **02** | Identificar o cliente | Cadastrar ou consultar seus dados. |
+| 📱 **03** | Identificar o aparelho | Relacionar o equipamento ao cliente. |
+| 📅 **04** | Agendar o reparo | Organizar o atendimento. |
+| 📝 **05** | Gerenciar os registros | Manter as informações atualizadas. |
 
-## 🧠 Conceitos envolvidos
+## 🧠 [Conceitos envolvidos](#-conceitos-envolvidos)
 
 <details>
-<summary><strong>📚 Clique para conhecer os conceitos aplicados à proposta</strong></summary>
+<summary><strong>📚 Clique para abrir os conceitos</strong></summary>
 
-| Conceito | Aplicação no projeto |
+| Conceito | Aplicação |
 | --- | --- |
-| **CRUD** | Criação, consulta, atualização e exclusão de registros. |
-| **Autenticação** | Verificação da identidade do usuário. |
-| **Controle de acesso** | Restrição de ações e informações conforme as regras do sistema. |
+| **CRUD** | Cadastro, consulta, atualização e exclusão de registros. |
+| **Autenticação** | Identificação dos usuários do sistema. |
 | **Relacionamento de dados** | Associação entre clientes, aparelhos e agendamentos. |
-| **Validação** | Verificação das informações antes de registrar os dados. |
-| **Organização da interface** | Distribuição das funcionalidades para facilitar o uso. |
-| **Versionamento** | Registro das alterações do projeto com Git. |
+| **Validação** | Verificação das informações preenchidas. |
+| **Controle de acesso** | Proteção das informações conforme as permissões. |
 
 </details>
 
-## 🛠️ Tecnologias
+## ✅ [Etapas do projeto](#-etapas-do-projeto)
 
-As tecnologias e suas versões deverão ser registradas nesta seção de acordo com a implementação do projeto.
+Checklist para acompanhar o desenvolvimento. Os itens devem ser marcados conforme forem concluídos.
 
-| Camada | Tecnologia |
-| --- | --- |
-| Interface | A documentar |
-| Lógica da aplicação | A documentar |
-| Armazenamento de dados | A documentar |
-| Autenticação | A documentar |
+- [ ] Levantamento de requisitos.
+- [ ] Planejamento das telas.
+- [ ] Estruturação dos dados.
+- [ ] Autenticação de usuários.
+- [ ] Gerenciamento de clientes.
+- [ ] Gerenciamento de aparelhos.
+- [ ] Gerenciamento de agendamentos.
+- [ ] Validação dos dados.
+- [ ] Testes das funcionalidades.
+- [ ] Documentação de instalação e execução.
 
-## ✅ Checklist de desenvolvimento
-
-Checklist de referência para acompanhar o projeto. Marque `[x]` nos itens concluídos.
-
-- [ ] Definir os requisitos e as regras de negócio.
-- [ ] Planejar as telas e a navegação.
-- [ ] Estruturar os dados do sistema.
-- [ ] Implementar a autenticação de usuários.
-- [ ] Desenvolver o gerenciamento de clientes.
-- [ ] Desenvolver o gerenciamento de aparelhos.
-- [ ] Desenvolver o gerenciamento de agendamentos.
-- [ ] Aplicar validações nos formulários.
-- [ ] Implementar o controle de acesso.
-- [ ] Testar o fluxo completo de atendimento.
-- [ ] Documentar a instalação e a execução.
-
-## 🚀 Como acessar o projeto
-
-<details>
-<summary><strong>📥 Baixar os arquivos pelo GitHub</strong></summary>
-
-1. Acesse a página deste repositório.
-2. Clique no botão **Code**.
-3. Selecione **Download ZIP**.
-4. Extraia o arquivo em seu computador.
-
-</details>
-
-<details>
-<summary><strong>💻 Clonar com Git</strong></summary>
-
-1. Na página do repositório, clique em **Code**.
-2. Copie a URL apresentada.
-3. Abra o terminal e digite `git clone`, seguido da URL copiada.
-4. Acesse a pasta criada no computador.
-
-</details>
-
-<details>
-<summary><strong>▶️ Instalar e executar</strong></summary>
-
-Os comandos de instalação, as configurações necessárias e as instruções de execução deverão ser adicionados após a definição das tecnologias utilizadas.
-
-</details>
-
-## 👨‍💻 Autor
+## 👨‍💻 [Autor](#-autor)
 
 **Kauan Modesto Veloso**
 
@@ -204,9 +159,10 @@ Os comandos de instalação, as configurações necessárias e as instruções d
 
 <div align="center">
 
-### 📱 Sistemas Celulares
-**Do cadastro ao agendamento, cada informação no seu lugar.**
+**📱 Sistemas Celulares**
 
-[⬆ Voltar ao início](#-sistemas-celulares)
+*Cada cliente, cada aparelho, cada atendimento: tudo conectado.*
+
+[⬆️ Voltar ao início](#-sistemas-celulares)
 
 </div>
